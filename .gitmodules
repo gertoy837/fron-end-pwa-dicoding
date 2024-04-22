@@ -1,0 +1,3 @@
+[submodule "movie-catalogue"]
+	path = movie-catalogue
+	url = https://github.com/gertoy837/movie-catalogue
