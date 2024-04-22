@@ -1,0 +1,8 @@
+Agar lebih mudah dalam mengetahui apakah fungsi yang Anda buat sudah pure atau belum, pastikan 3 konsep ini ada pada fungsi yang Anda buat.
+
+1. Mengembalikan nilai yang sama bila inputannya (nilai parameter) sama.
+2. Hanya bergantung pada argumen yang diberikan.
+3. Tidak menimbulkan efek samping.
+
+Bila 3 konsep di atas terpenuhi, maka bisa dipastikan Anda membuat sebuah pure function.
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            padding: 8px;
+            background-color: #bf1722;
+            color: white;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        main p {
+            padding-top: 100rem;
+        }
+    </style>
+  </head>
+  <body>
+    <a href="#maincontent" class="skip-link">Menu ke konten</a>
+    <header>
+      <p>apa aja</p>
+    </header>
+    <main id="maincontent">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, odit?
+      </p>
+    </main>
+  </body>
+</html>
